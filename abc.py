@@ -1,13 +1,14 @@
-num = input().split(" ")
+num = input()
+num = num.split(" ")
 num = list(map(int, num))
 num.sort()
-order=input()
-ans=[]
-for i in range(len(order)):
-    if(order[i]=="A"):
-        ans.append(num[0])
-    elif(order[i]=="B"):
-        ans.append(num[1])
-    elif(order[i]=="C"):
-        ans.append(num[2])
-print(ans[0],ans[1],ans[2])
+word = input()
+s = ""
+for i in range(len(word)):
+    if(word[i]=="A"):
+        s = s + str(num[0])+" "
+    elif(word[i]=="B"):
+        s = s + str(num[1])+" "
+    else:
+        s = s + str(num[2])+" "
+print(s)
