@@ -1,4 +1,4 @@
 # kattis_solutions
 the list of my python solutions to the kattis problems
 
-[UIT Rank 10](https://open.kattis.com/universities/uit.edu.mm)as of 2023-27-05.
+[UIT Rank 10](https://open.kattis.com/universities/uit.edu.mm) as of 2023-27-05.
