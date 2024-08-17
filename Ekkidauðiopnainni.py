@@ -1,0 +1,5 @@
+s1 = input()
+s1 = s1.split("|")
+s2 = input()
+s2 = s2.split("|")
+print(s1[0] + s2[0] + " " + s1[1] + s2[1])
