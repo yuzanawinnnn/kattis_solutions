@@ -1,0 +1,6 @@
+n = int(input())
+s = input()
+s = s.split(' ')
+temp_list = list(map(int, s))
+temp_list.sort()
+print(temp_list[-1], temp_list[0])
